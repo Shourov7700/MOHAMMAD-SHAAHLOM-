@@ -17,14 +17,14 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads,Users}) => {
 var id = event.senderID;
  var name = await Users.getNameUser(event.senderID);
- if (event.body.indexOf("ULLASH")==0 || (event.body.indexOf("ullash bau")==0) || event.body.indexOf("উল্লাস ভাই")==0 ||
-event.body.indexOf("Ullash bai")==0 ||
-event.body.indexOf("ullash dadu")==0 ||
-event.body.indexOf("উল্লাস")==0 ||
-event.body.indexOf("ullash")==0 ||
-event.body.indexOf("ulash")==0 ||
-event.body.indexOf("ullas")==0 ||
-event.body.indexOf("ullah")==0) {
+ if (event.body.indexOf("SHOUROV")==0 || (event.body.indexOf("shourov bau")==0) || event.body.indexOf("সৌরভ ভাই")==0 ||
+event.body.indexOf("Shourov bai")==0 ||
+event.body.indexOf("shourov dadu")==0 ||
+event.body.indexOf("সৌরভ")==0 ||
+event.body.indexOf("shourrov")==0 ||
+event.body.indexOf("king")==0 ||
+event.body.indexOf("King")==0 ||
+event.body.indexOf("ceo")==0) {
  const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
@@ -32,7 +32,7 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.imgur.com/fGY8plC.mp4",
 "https://i.imgur.com/fGY8plC.mp4",
  ];
- var callback = () => api.sendMessage({body:`╭•┄┅════❁🌺❁════┅┄•╮\n প্রিয় মানুষ ডুবে থাকুক,,,\nহৃদওপিন্ডের বিশাল গভিরতায়,,!🌸 \n╰•┄┅════❁🌺❁════┅┄•╯\n\n ${name} উল্লাস এর ইনবক্স :- m.me/100086680386976 \n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆`,attachment: fs.createReadStream(__dirname + "/cache/emon.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/emon.jpeg"), event.messageID);
+ var callback = () => api.sendMessage({body:`╭•┄┅════❁🌺❁════┅┄•╮\n প্রিয় মানুষ ডুবে থাকুক,,,\nহৃদওপিন্ডের বিশাল গভিরতায়,,!🌸 \n╰•┄┅════❁🌺❁════┅┄•╯\n\n ${name} সৌরভ এর ইনবক্স :- https://www.facebook.com/www.xsxx.com365 \n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆`,attachment: fs.createReadStream(__dirname + "/cache/emon.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/emon.jpeg"), event.messageID);
  const timeStart = Date.now();
  const dcm = process.uptime(); 
  var anh = Math.floor(dcm / (60 * 60));
