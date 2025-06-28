@@ -41,7 +41,7 @@ try {
 	ctx.drawImage(await Canvas.loadImage(avatar), 48, 410, 111, 111);
 	const imageBuffer = canvas.toBuffer();
 	fs.writeFileSync(path_toilet,imageBuffer);
-	 api.sendMessage({attachment: fs.createReadStream(path_toilet, {'highWaterMark': 128 * 1024}), body: "╭──────•◈•───────╮\n 𝐊𝐢𝐧𝐠_𝐒𝐡𝐨𝐮𝐫𝐨𝐯 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁 \n\nমুরগির দুধ চুরি করতে গিয়া ধরা থাইসে_ 🐸👻\n\n BOT OWNER Shourov ッ\n╰──────•◈•───────╯"}, event.threadID, () => fs.unlinkSync(path_toilet), event.messageID);
+	 api.sendMessage({attachment: fs.createReadStream(path_toilet, {'highWaterMark': 128 * 1024}), body: "╭──────•◈•───────╮\n ⃝—͟͟͞͞ 𝐂.𝐄.𝐎⸙𝐒𝐇ꫝꫝ𝐇𝐋𝐎𝐌𓆪___//😈😗🙂😞😕😈 \n\nমুরগির দুধ চুরি করে খাইতে গিয়া ধরা থাইসে_ 🐸👻\n\n BOT OWNER ⃝—͟͟͞͞ 𝐂.𝐄.𝐎⸙𝐒𝐇ꫝꫝ𝐇𝐋𝐎𝐌𓆪___//😈😗🙂😞😕😈ッ\n╰──────•◈•───────╯"}, event.threadID, () => fs.unlinkSync(path_toilet), event.messageID);
 }
 catch(e) {api.sendMessage(e.stack, event.threadID )}
  }
