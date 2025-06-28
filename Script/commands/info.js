@@ -61,11 +61,11 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  "MintBot cân spam nhưng không có gì đáng để bạn spam."
  ];
  var link = [
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.imgur.com/WXQIgMz.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
  ];
 
  var i = 1;
@@ -157,11 +157,11 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  "MintBot cân spam nhưng không có gì đáng để bạn spam."
  ];
  var link = [
- "https://i.imgur.com/XPsWrRK.jpeg",
- "https://i.imgur.com/XPsWrRK.jpeg",
- "https://i.imgur.com/XPsWrRK.jpeg",
- "https://i.imgur.com/XPsWrRK.jpeg",
- "https://i.imgur.com/XPsWrRK.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
+ "https://i.imgur.com/p8aN2vc.jpeg",
 
  ]; 
  var i = 1;
@@ -186,13 +186,13 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  `🍀----আসসালামু আলাইকুম----🍀
 
 ┏━━•❅•••❈•••❈•••❅•━━┓\n\n「 ${namebot} 」\n\n┗━━•❅•••❈•••❈•••❅•━━┛ \n\n______________________________\n\n↓↓_𝗥𝗢𝗕𝗢𝗧 𝗦𝗬𝗦𝗧𝗘𝗠 𝗜𝗡𝗙𝗢_↓↓\n\n» 𝗣𝗿𝗲𝗳𝗶𝘅 𝘀𝘆𝘀𝘁𝗲𝗺: ${PREFIX}\n\n» 𝗣𝗿𝗲𝗳𝗶𝘅 𝗯𝗼𝘅: ${prefix}\n\n» 𝗧𝗼𝘁𝗮𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀: ${commands.size}\n\n» 𝗣𝗶𝗻𝗴: ${Date.now() - dateNow}ms\n______________________________\n\n ↓↓_𝗥𝗢𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢_↓↓\n\n 
-𝗡𝗔𝗠𝗘 :>𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕
+𝗡𝗔𝗠𝗘 :>⃝—͟͟͞͞ 𝐂.𝐄.𝐎⸙𝐒𝐇ꫝꫝ𝐇𝐋𝐎𝐌𓆪
 
-𝗢𝘄𝗻𝗲𝗿 𝗜𝗱 𝗹𝗶𝗻𝗸:☞https://www.facebook.com/www.xsxx.com365
+𝗢𝘄𝗻𝗲𝗿 𝗜𝗱 𝗹𝗶𝗻𝗸:☞https://www.facebook.com/pr.mbir.mtrr.m.par.mpir.m.cur.2025?mibextid=ZbWKwL
 
-𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽☞01709281334
+𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽☞01328091668
 
-______________________________\n\n----↓↓𝙍𝙤𝙗𝙤𝙩 𝙖𝙘𝙩𝙞𝙫𝙚 𝙩𝙞𝙢𝙚↓↓----\n\n ${hours} : ${minutes} : ${seconds} second(s)\n\n______________________________\n» 𝗧𝗢𝗧𝗔𝗟 𝗨𝗦𝗘𝗥𝗦: ${global.data.allUserID.length} \n\n» 𝗧𝗢𝗧𝗔𝗟 𝗚𝗥𝗢𝗨𝗣: ${global.data.allThreadID.length}\n______________________________\n\n thanks for using \n 𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 
+______________________________\n\n----↓↓𝙍𝙤𝙗𝙤𝙩 𝙖𝙘𝙩𝙞𝙫𝙚 𝙩𝙞𝙢𝙚↓↓----\n\n ${hours} : ${minutes} : ${seconds} second(s)\n\n______________________________\n» 𝗧𝗢𝗧𝗔𝗟 𝗨𝗦𝗘𝗥𝗦: ${global.data.allUserID.length} \n\n» 𝗧𝗢𝗧𝗔𝗟 𝗚𝗥𝗢𝗨𝗣: ${global.data.allThreadID.length}\n______________________________\n\n thanks for using \n —͟͟͞͞𝐂𝐄𝐎☢️_𖣘 -𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌⚠️ 𝐁𝐎𝐓_ ☢️
 \n--------------------------------------------------\n\n☢️☣️⚠️`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
  return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/kensu.jpg")).on("close", () => callback()); 
  }
