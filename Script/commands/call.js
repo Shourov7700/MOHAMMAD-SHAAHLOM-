@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event, args }) => {
  api.unsendMessage(info.messageID);
  }, 90000);
  
- return api.sendMessage(`✅ —͟͟͞͞𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 ☢️_𖣘 -𝐁𝐎𝐓 কল বোম্বিং সম্পন্ন হয়েছে ${number} নম্বরে।`, event.threadID, event.messageID);
+ return api.sendMessage(`✅ —͟͟͞͞𝐂𝐄𝐎☢️_𖣘 -𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌⚠️ 𝐁𝐎𝐓_ ☢️ বোম্বিং সম্পন্ন হয়েছে ${number} নম্বরে।`, event.threadID, event.messageID);
  } catch (error) {
  return api.sendMessage(`❌ ত্রুটি: ${error.message}`, event.threadID, event.messageID);
  }
