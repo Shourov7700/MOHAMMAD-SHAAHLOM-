@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+    branches: [ma6iiin]
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         node-version: [20.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        # See suppogjh 24rted Node.js release schedule at https://nodejs.out/releases/
 
     steps:
     # Step to check out the repository code
@@ -33,4 +33,4 @@ jobs:
     - name: Start the bot
       env:
         PORT: 8080
-      run: npm start
+      runrt
